@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color:#94B49F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-family: Raleway, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+
+.calculator {
+    width: 40%;
+    color: #FFFDE3;
+}
+
+.heading h3 {
+    font-size: 25px;
+    color: #FFFDE3;
+}
+
+#message {
+    font-size: 25px;
+    color: #FFFDE3;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid antiquewhite;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group button {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid antiquewhite;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group select {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid antiquewhite;
+    outline: none;
+    border-radius: 5px;
+}
+
+.results {
+    box-shadow: 0px 0px 10px 3px antiquewhite;
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
